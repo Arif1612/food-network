@@ -18,13 +18,13 @@ body{
 .flexible-container{
     display: flex;
     margin: 1%;
-    border: solid red;
+
 
 }
 .half-width{
     width: 50%;
     padding: 2%;
-    border: solid 2px;
+  
     margin: 1%;
 }
 .half-width img{
@@ -32,12 +32,26 @@ body{
     border-radius: 15px;
 
 }
+#bg-image{
+background-image: url(images/shapes/7.png);
+background-position: right;
+
+
+}
+#bg-image1{
+    background-image: url(images/shapes/7.png);
+    background-position: left;
+   
+}
+    
+
 #h1-center{
     text-align: center;
 }
 #p-center{
     text-align: center;
 }
+
 .put-margin{
     margin: 1%;
 }
@@ -45,7 +59,6 @@ body{
 .half-width-recipies{
     width: 30%;
     padding: 2%;
-    border: solid 2px;
     margin: 1%;
     box-shadow: 10px 10px 20px rgb(240, 221, 221);
 }
@@ -56,9 +69,31 @@ body{
 .flexible-container-subscriber {
     display: flex;
     margin: 1%;
-    border: solid red;
+   
     padding: 10px 40px;
 }
+
+.segment-p{
+    text-align: center;
+}
+.segment-h1{
+    text-align: center;
+}
+#footer-h1{
+    text-align: center;
+}
+
+#footer-h3{
+    text-align: center;
+}
+
+
+footer{
+  
+    background-color: rgb(3, 24, 36);
+    color: white;
+}
+
 
 
 
