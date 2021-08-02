@@ -35,6 +35,7 @@ body{
 #bg-image{
 background-image: url(images/shapes/7.png);
 background-position: right;
+background-repeat: no-repeat;
 
 
 }
